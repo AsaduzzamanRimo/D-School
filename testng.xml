@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   
+   <class name="testcasepackage.Profile_01"/>
+  <class name="testcasepackage.Education_type_list_01"/>
+    <class name="testcasepackage.Education_subject_list_01"/>
+    <class name="testcasepackage.Education_grading_list_01"/>
+		<class name="testcasepackage.Education_session_01"/>	
+   			 <class name="testcasepackage.Education_version_01"/>
+   				 <class name="testcasepackage.Application_list_01"/>
+  						 <class name="testcasepackage.Select_student_list_01"/>
+  		 				 
+   <class name="testcasepackage.Admission_list_01"/>
+    	 <class name="testcasepackage.Fee_head_group_01"/>
+    		  <class name="testcasepackage.Fee_head_01"/>
+    			 <class name="testcasepackage.Fees_setting_01"/>
+    				 <class name="testcasepackage.Voucher_list_01"/>
+     				    <class name="testcasepackage.Voucher_payment_list_01"/>
+     				    	    
+     <class name="testcasepackage.Student_list_01"/>	
+        <class name="testcasepackage.Student_subject_01"/>
+     		 <class name="testcasepackage.Add_guardian_01"/>
+     		 	 <class name="testcasepackage.Guardian_list_01"/>
+     		 		 <class name="testcasepackage.Add_teacher_01"/>
+     		  			  <class name="testcasepackage.Teacher_list_01"/>
+     		 
+      <class name="testcasepackage.Shift_list_01"/>
+        <class name="testcasepackage.Class_list_01"/>
+       		 <class name="testcasepackage.Class_subject_list_01"/>
+       		  <class name="testcasepackage.Class_group_list"/>
+        		 <class name="testcasepackage.Add_class_section_01"/>
+         			 <class name="testcasepackage.Class_section_list_01"/>
+     		 		 	 <class name="testcasepackage.Add_class_routine_01"/>
+     		 		 	 
+      <class name="testcasepackage.Class_routine_list_01"/>
+     		<class name="testcasepackage.Period_list_01"/>		 		 	 
+     			<class name="testcasepackage.Student_attendance_list_01"/>		 		 	 
+     		 		 <class name="testcasepackage.Teacher_attendance_list_01"/>		 
+     		 		  	<class name="testcasepackage.Add_exam_01"/> 
+     		 		   		 <class name="testcasepackage.Exam_list_02"/> 
+     		 		   		 
+     <class name="testcasepackage.Add_exam_routine_01"/> 		 		   		 
+      	 <class name="testcasepackage.Exam_routine_list_01"/> 				 
+     		 <class name="testcasepackage.Add_result_01"/>    		
+     			 <class name="testcasepackage.Result_list_01"/>    		
+     	 			 <class name="testcasepackage.Result_details_list_01"/>  
+     	  					<class name="testcasepackage.Add_people_01"/>  
+     	  
+     <class name="testcasepackage.People_list_01"/>       	  
+    	 <class name="testcasepackage.Ledger_sub_group_list_01"/>  
+     		 <class name="testcasepackage.Ledger_list_01"/>  
+     			 <class name="testcasepackage.Ledger_setting_01"/>  
+     				 <class name="testcasepackage.Financial_period_01"/>  
+     					 <class name="testcasepackage.Add_bank_account_01"/> 
+     	
+    <class name="testcasepackage.Bank_account_list_01"/>  	
+         <class name="testcasepackage.Bank_transaction_list_01"/>  
+           	 <class name="testcasepackage.Asset_list_01"/>
+          		  <class name="testcasepackage.Asset_detail_list_01"/>
+          			  <class name="testcasepackage.Add_asset_allocation_01"/>
+          			 	 <class name="testcasepackage.Asset_allocation_list_01"/>  
+  
+     <class name="testcasepackage.Add_asset_income_01"/>          			
+          <class name="testcasepackage.Asset_income_list_01"/>
+            <class name="testcasepackage.Add_income_collection_01"/>
+          <class name="testcasepackage.All_asset_income_collection_01"/>
+          <class name="testcasepackage.Asset_wise_income_collection_01"/>
+             <class name="testcasepackage.Holder_wise_income_collection_01"/>
+           <class name="testcasepackage.Income_collection_reciept_01"/>
+          		<class name="testcasepackage.Add_expense_01"/>
+              		<class name="testcasepackage.Expense_list_01"/>
+
+
+    	<class name="testcasepackage.Role_List_01"/>
+				<class name="testcasepackage.Create_user_01"/>
+					<class name="testcasepackage.Add_notice"/>
+						<class name="testcasepackage.Notice_list_01"/>
+								<class name="testcasepackage.Add_contact"/>
+									<class name="testcasepackage.Contact_list"/>
+		
+		<class name="testcasepackage.Add_contact_group_01"/>						
+			<class name="testcasepackage.Contact_group_list_01"/>						
+				<class name="testcasepackage.Sms_service_list_01"/>						
+					<class name="testcasepackage.Sms_service_log_01"/>												
+						<class name="testcasepackage.Add_message_template_01"/>			
+								<class name="testcasepackage.Message_template_list_01"/>			
+									
+					<class name="testcasepackage.Add_message_schedule_01"/>			
+									<class name="testcasepackage.Message_schedule_list_01"/>			
+									<class name="testcasepackage.Message_job_list"/>			
+								
+					
+								
+								
+    </classes>   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
